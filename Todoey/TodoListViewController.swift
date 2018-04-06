@@ -15,11 +15,6 @@ class TodoListViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        //TODO: Register CustomItemCell.xib file here:
-        ItemTableView.register(UINib(nibName: "CustomItemCell", bundle: nil), forCellReuseIdentifier: "customItemCell")
-        
-        
     }
 
     
