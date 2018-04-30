@@ -41,7 +41,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="CategoryTableView" destination="RPc-Fn-Eud" id="cjW-vR-poe"/>
+                        <outlet property="CategoryTableView" destination="RPc-Fn-Eud" id="I3e-3O-Fw6"/>
                         <segue destination="SFh-hr-KIO" kind="show" identifier="goToItems" id="n62-SY-oYt"/>
                     </connections>
                 </tableViewController>
@@ -66,13 +66,14 @@
                             </connections>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ToDoItemCell" id="7VF-WF-Zns">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="checkmark" indentationWidth="10" reuseIdentifier="ToDoItemCell" id="7VF-WF-Zns">
                                 <rect key="frame" x="0.0" y="72" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="7VF-WF-Zns" id="O3C-pJ-e2V">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="335" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
+                                <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -89,7 +90,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="ItemTableView" destination="9FF-BU-mxV" id="QHq-6R-bkZ"/>
+                        <outlet property="ItemTableView" destination="9FF-BU-mxV" id="sdr-rD-tke"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="INq-6T-IlP" userLabel="First Responder" sceneMemberID="firstResponder"/>
